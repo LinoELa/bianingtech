@@ -108,6 +108,63 @@
   </section>
   <!-- end welcome section -->
 
+  <!-- contact section -->
+  <section class="contact_section layout_padding">
+    <div class="container contact_heading">
+      <h2>
+        Contactanos
+      </h2>
+      <p>
+        Si quieres mas informacion o tienes dudas escribenos un mensaje.
+      </p>
+    </div>
+    <div class="container">
+      <form autocomplete="off" name="Contacto pagina Contacto" netlify>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputName4">Nombre</label>
+            <input type="text" name="Nombre : " class="form-control" id="inputName4" />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Correo Electronico</label>
+            <input type="email" name="Correo : " class="form-control" id="inputEmail4" />
+          </div>
+
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputNumber4">Numero telefono</label>
+            <input type="tel" name="Numero tel : " class="form-control" id="inputNumber4" />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputState">Selecciona un Servicio</label>
+            <select id="inputState" name="Servicio" class="form-control">
+              <option selected=""></option>
+              <!-- <option>...</option> -->
+              <option value="Informacion">Informacion</option>
+              <option value="Duda">Duda sobre el Kit Digital</option>
+              <option value="Otros">Otros</option>
+            </select>
+          </div>
+
+        </div>
+        <div class="form-group">
+          <label for="inputMessage">Mensaje </label>
+          <!-- <input type="text" class="form-control" id="inputMessage" placeholder="" /> -->
+          <!-- <textarea name="Mensaje" id="text" cols="50" rows="20" style="max-width: 500px;margin: auto; display: block;"></textarea> -->
+          <textarea name="Mensaje" id="text" cols="80" rows="10"
+            style="width: 1200px; max-width: 100%; margin: auto; display: block;"></textarea>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <button type="submit" class="">Enviar </button>
+    </div>
+    </form>
+
+  </section>
+
+
 
 
   <div class="footer_bg">
